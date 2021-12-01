@@ -28,10 +28,10 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* Changed SEO to black for better colour contrast */
+/*  */
 
 header h1 .seo {
-    color: black;
+    color:#D9DcD6;
 }
 
 header nav {
