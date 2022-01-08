@@ -28,7 +28,6 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/*  */
 
 header h1 .seo {
     color:#D9DcD6;
@@ -83,55 +82,50 @@ header nav ul li {
     background-color: #0072bb;
 }
 
-.benefit-lead {
+/*Applying the benefits aside semantic to the enabled combining the CSS style for 
+.benefit-lead, .benefit-brand and .benefit-cost for 
+articles
+images
+heading (h3)
+enabling any future changes to occur in one place but get applied to all
+and provides consistent application to the elements of the same type*/
+
+.benefits h3 {
+margin-bottom: 10px;
+text-align: center;
+}
+
+.benefits article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/*Applying articles (semantic) to the contents section section enabled combining the CSS style for 
+
+- articles
+- images
+- heading (h3),
+
+enabling any future changes to occur in one place but get applied to all simultaneously
+and provides consistent application to the elements of the same type*/
+
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+.content img {
+    max-height: 200px;
 }
 
-.search-engine-optimization {
+.content article{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -140,49 +134,21 @@ header nav ul li {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/*Applying the nav (semantic) to the header section section combining the CSS style for 
+
+- images
+- heading (h2),
+
+enabling any future changes to occur in one place but get applied to all simultaneously
+and provides consistent application to the elements of the same type*/
+
+.nav img{
+    max-height: 200px; 
+}
+
+.nav h2{
     margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 36px;  
 }
 
 footer {
