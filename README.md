@@ -1,4 +1,4 @@
-# Week1-HomeWork
+# W1HW-Refactor Horiseon Site
 21st December 2021
 
 **Assignment:** 
@@ -20,6 +20,10 @@ The code has been enhanced as follows:
   - Added 'alt' element to images to assist users using non visual browsers
   - Added 'aria-labelledby to links 
   - Adjusted the colour of the benefits section:
+  - Replaced DIV with HTML semantic tags
+  - Headers are sequential
+  - Consolidated CSS using semantic tags 
+  - Renamed Repository
   
     From: ![image](https://user-images.githubusercontent.com/94102473/144243917-0a4eddca-4dc8-4f68-9aee-df64ac59409d.png)
 
@@ -30,3 +34,7 @@ The code has been enhanced as follows:
 * Used Header and Footer HTML Semantic instead of Header and footer class 
 
 * Added the Nav HTML semantic 
+* Replaced DIV with HTML semantic tags (article and aside)
+* Headers are sequential
+* Consolidated CSS using the newly created semantic tags 
+* Renamed the GIT Repository
